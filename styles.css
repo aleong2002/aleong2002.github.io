@@ -16,7 +16,7 @@ body {
     display: inline-block;
   }
   
-  a:hover a:active {
+  a:active a:hover {
     background-color:slategray;
   }
 
