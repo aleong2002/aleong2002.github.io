@@ -15,9 +15,10 @@ body {
     text-decoration: none;
     display: inline-block;
   }
-  
-  a:hover a:active {
+
+  a:hover {
     background-color:slategray;
+    
   }
 
   img {
