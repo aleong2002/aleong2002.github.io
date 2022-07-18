@@ -11,8 +11,8 @@ body {
     display: inline-block;
   }
   
-  a:hover, a:active {
-    background-color:darkgray;
+  a:hover {
+    background-color:slategray;
   }
 
   img {
