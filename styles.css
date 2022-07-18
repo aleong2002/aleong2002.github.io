@@ -16,7 +16,7 @@ body {
     display: inline-block;
   }
   
-  a:hover #submit:hover {
+  a:hover {
     background-color:slategray;
   }
 
