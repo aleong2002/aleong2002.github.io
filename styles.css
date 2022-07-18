@@ -2,7 +2,7 @@ body {
     background-color: lightsteelblue;
   }
 
-  a:link, a:visited {
+  a:link, a:visited #submit {
     background-color:dimgrey;
     color: white;
     padding: 10px 15px;
@@ -11,19 +11,10 @@ body {
     display: inline-block;
   }
   
-  a:hover {
+  a:hover #submit:hover {
     background-color:slategray;
   }
 
   img {
     width:100%;
-  }
-
-  #submit {
-    background-color:dimgrey;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
