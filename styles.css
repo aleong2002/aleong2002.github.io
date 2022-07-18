@@ -16,7 +16,7 @@ body {
     display: inline-block;
   }
   
-  a:active a:hover {
+  a:hover a:active {
     background-color:slategray;
   }
 
@@ -32,3 +32,7 @@ body {
     text-decoration: none;
     display: inline-block;
   }
+  
+  #submit:hover {
+    background-color:slategray;
+   }
