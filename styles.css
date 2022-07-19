@@ -38,3 +38,17 @@ body {
   #submit:hover {
     background-color:slategray;
    }
+
+#social-links:link, #social-links:visited {
+  background-color:dimgrey;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#social-links:hover {
+  background-color:darkslategray;
+
+}
