@@ -47,3 +47,16 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+#backbutton:link, #backbutton:visited {
+  background-color:dimgrey;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#backbutton:hover {
+  background-color:slategray;
+}
