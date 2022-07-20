@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="author" content="Athena Leong">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My First Project </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    </head>
+
+    <style>
+    .hero {
+      background: url('https://wallpapercave.com/wp/wp4718961.jpg') center;
+      background-size:cover;
+      color:white;
+      padding: 4rem 2rem;
+      font-size: 30px;
+  
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+    
+    footer {
+        background-color: dimgray;
+        padding: .75rem;
+        color: white;
+        text-align: center;
+    }
+    .blog1 {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+
+    </style>
+
+<body>
+    <header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./contact.html">Contact Me</a>
+        <a href="./projects.html">Projects</a>
+      </nav>
+    
+    </header>
+    <br>
+    <main>
+        <section class="hero">
+            <h1>Home</h1>
+        </section>
+
+        <br>
+
+        <form class="backbutton">
+            <input type="button" value="Back" onclick="history.back()">
+        </form>
+
+        <br>
+
+        <article id="blog1">
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2022. Made with HTML, CSS, and Heart.</p>
+    </footer>
+
+</body>
+</html>
